@@ -1,0 +1,41 @@
+Header descriptions for .dat files "Deployment One 6.25 to 6.50 hours" and "Deployment One 7.50 to 7.75 hours" for use with "importVector.m" and "motionCorrectVector3.m" Matlab scripts.
+Data was measured at 64hz. Note that each file is padded with 3840 samples (one minute) at the beginning and end.
+
+1	Burst counter	
+2	Ensemble counter		(1-65536)
+3	Velocity (Beam1|X|East)		(m/s)
+4	Velocity (Beam2|Y|North)	(m/s)
+5	Velocity (Beam3|Z|Up)		(m/s)
+6	Amplitude (Beam1)		(counts)
+7	Amplitude (Beam2)		(counts)
+8	Amplitude (Beam3)		(counts)
+9	SNR (Beam1)			(dB)
+10	SNR (Beam2)			(dB)
+11	SNR (Beam3)			(dB)
+12	Correlation (Beam1)		(%)
+13	Correlation (Beam2)		(%)
+14	Correlation (Beam3)		(%)
+15	Pressure			(dbar)
+16	Analog input 1	
+17	Analog input 2	
+18	Checksum			(1=failed)
+19	Ensemble counter	
+20	Timer				(s)
+21	Acceleration X			(m/s^2)
+22	Acceleration Y			(m/s^2)
+23	Acceleration Z			(m/s^2)
+24	Angular Rate X			(deg/s)
+25	Angular Rate Y			(deg/s)
+26	Angular Rate Z			(deg/s)
+27	Magnetometer X			(Gauss)
+28	Magnetometer Y			(Gauss)
+29	Magnetometer Z			(Gauss)
+30	Orientation Matrix 1,1	
+31	Orientation Matrix 1,2	
+32	Orientation Matrix 1,3	
+33	Orientation Matrix 2,1	
+34	Orientation Matrix 2,2	
+35	Orientation Matrix 2,3	
+36	Orientation Matrix 3,1	
+37	Orientation Matrix 3,2	
+38	Orientation Matrix 3,3	
